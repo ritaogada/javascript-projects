@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 7 ChatGPT</title>
+</head>
+<body>
+  <script>
+    function convertTemperature(degrees, unit) {
+  if (unit.toUpperCase() === 'C') {
+    const fahrenheit = (degrees * 9/5) + 32;
+    return { value: fahrenheit, unit: 'F' };
+  } else if (unit.toUpperCase() === 'F') {
+    const celsius = (degrees - 32) * 5/9;
+    return { value: celsius, unit: 'C' };
+  } else {
+    throw new Error("Invalid unit. Use 'C' for Celsius or 'F' for Fahrenheit.");
+  }
+}
+
+// Example usage
+const degreesValue = 20; // Replace with the temperature value you want to convert
+const originalUnit = 'C'; // Replace with the original unit ('C' or 'F')
+const convertedTemperature = convertTemperature(degreesValue, originalUnit);
+
+console.log(`${degreesValue.toFixed(2)} degrees ${originalUnit} is equal to ${convertedTemperature.value.toFixed(2)} degrees ${convertedTemperature.unit}.`);
+
+  </script>
+</body>
+</html>
