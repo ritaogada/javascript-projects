@@ -1,0 +1,19 @@
+
+.request {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.request-now {
+  background-color: black;
+  color: white;
+  
+  margin-right: 20px;
+  
+}
+
+.request-later {
+  background-color: rgb(230, 230, 230);
+}
