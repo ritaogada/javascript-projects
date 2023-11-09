@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+  }
+
+  .subscribe-button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+
+  .is-subscribed {
+    background-color: rgb(240, 240, 240);
+    color: black;
+  }
+
+  .cost-input {
+    font-size: 15px;
+    padding: 10px;
+    
+  }
+
+  .calculate-button {
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    border: none;
+    padding: 12px 15px;
+    cursor: pointer;
+  }
+
+  .error-message {
+    color: red;
+    font-family: Arial;
+  }
