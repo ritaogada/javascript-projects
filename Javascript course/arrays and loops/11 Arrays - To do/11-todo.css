@@ -4,8 +4,14 @@ p {
     margin-top: 50px;
 }
 
-.to-do-list {
+#to-do-list {
     padding: 10px;
+    margin-right: 5px;
+}
+
+#date {
+    padding: 10px 2px;
+    margin-right: 5px;
 }
 
 .add-button {
