@@ -1,0 +1,16 @@
+p {
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.to-do-list {
+    padding: 10px;
+}
+
+.add-button {
+    padding: 12px 30px;
+    border: none;
+    background-color: green;
+    color: white;
+}
