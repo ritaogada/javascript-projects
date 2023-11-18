@@ -31,3 +31,33 @@ function arraySwap(array) {
 }
 
 console.log(arraySwap([1, 2, 3, 4, 5]));
+console.log(arraySwap(['hello', 'world', 'how', 'are', 'you']))
+
+// lesson 11d: creating a loop that counts from 0 to 10 but by 2, as in 0, 2, 4, ..., 8, 10.
+  
+  for (let i = 0; i <=10; i += 2) {
+    console.log(i);
+  }
+
+  //Lesson 11e: creating a loop that counts from 5 to 0
+
+  for (let i = 5; i >= 0; i--) {
+    console.log(i);
+  }
+
+  //lesson 11f: Use while loops in lld and 11e
+
+  let num3 = 0;
+
+  while (num3 <=10) {
+    console.log(num3);
+    num3++;
+  }
+
+
+  let num4 = 5;
+
+  while (num4 >= 0) {
+    console.log(num4);
+    num4--;
+  }
